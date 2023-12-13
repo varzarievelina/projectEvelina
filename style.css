@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.pinimg.com/originals/5d/86/b8/5d86b82dc27e1f90b277754064db1e1d.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.pinimg.com/originals/ee/d2/7c/eed27c184a943f005c8eebee466933ce.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.pinimg.com/originals/29/97/04/29970474c058e8608850e10c276c86f5.jpg');
+}
